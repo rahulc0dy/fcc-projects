@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+	<title>Product Landing Page</title>
+</head>
+<body>
+
+	<header id="header">
+		<img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="header-image" id="header-img">
+
+	<nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Navbar</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link" href="#features">Features</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#products">products</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#working">working</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	</header>
+
+	<div id="contents" class="container-fluid w-75 mt-5 p-2">
+		<div id="working">
+			<video id="video" controls>
+				<source src="https://youtu.be/y8Yv4pnO7qc" type="video">
+			</video>
+		</div>
+		
+
+		<form class="form-group mt-5 mb-5" action="https://www.freecodecamp.com/email-submit" id="form">
+			<label for="email" class="form-control-label">Email:</label>
+			<input class="form-control w-50" type="email" id="email" name="email" placeholder="email" required>
+			<input class="btn-primary rounded m-3 p-2" type="submit" id="submit" value="submit">
+		</form>
+
+		<div id="products" class="container-fluid row mt-5">
+			<section id="features" class="ml-3 border-primary">
+		      <div class="grid border-primary">
+		        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+		        <div class="desc">
+		          <h2>Premium Materials</h2>
+		          <p>
+		            Our trombones use the shiniest brass which is sourced locally. This
+		            will increase the longevity of your purchase.
+		          </p>
+		        </div>
+		      </div>
+		      <div class="grid">
+		        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+		        <div class="desc">
+		          <h2>Fast Shipping</h2>
+		          <p>
+		            We make sure you recieve your trombone as soon as we have finished
+		            making it. We also provide free returns if you are not satisfied.
+		          </p>
+		        </div>
+		      </div>
+		      <div class="grid">
+		        <div class="icon">
+		          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+		        </div>
+		        <div class="desc">
+		          <h2>Quality Assurance</h2>
+		          <p>
+		            For every purchase you make, we will ensure there are no damages or
+		            faults and we will check and test the pitch of your instrument.
+		          </p>
+		        </div>
+		      </div>
+		    </section>
+			<div class="product border col-4" id="tenor">
+		        <div class="level">Tenor Trombone</div>
+		        <h2>$600</h2>
+		        <ol>
+		          <li>Lorem ipsum.</li>
+		          <li>Lorem ipsum.</li>
+		          <li>Lorem ipsum dolor.</li>
+		          <li>Lorem ipsum.</li>
+		        </ol>
+		        <button class="btn">Select</button>
+		    </div>
+
+		    <div class="product border col-4" id="tenor">
+		        <div class="level">Bass Trombone</div>
+		        <h2>$800</h2>
+		        <ol>
+		          <li>Lorem ipsum.</li>
+		          <li>Lorem ipsum.</li>
+		          <li>Lorem ipsum dolor.</li>
+		          <li>Lorem ipsum.</li>
+		        </ol>
+		        <button class="btn">Select</button>
+		    </div>
+
+		    <div class="product border col-4" id="tenor">
+		        <div class="level">Valve Trombone</div>
+		        <h2>1200</h2>
+		        <ol>
+		          <li>Lorem ipsum.</li>
+		          <li>Lorem ipsum.</li>
+		          <li>Lorem ipsum dolor.</li>
+		          <li>Lorem ipsum.</li>
+		        </ol>
+		        <button class="btn">Select</button>
+		    </div>
+		</div>
+	</div>
+
+	
+
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
